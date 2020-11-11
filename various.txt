@@ -1,0 +1,5 @@
+# this script will test various features of your computer 
+
+if (Test-Path "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"){
+start-process "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" 'https://www.youtube.com/watch?v=eKII8OgHmhY'}
+else {"no chrome installed, no fun"}
